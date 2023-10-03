@@ -1,0 +1,76 @@
+body {
+    background-color: #f5f5f5;
+}
+
+blockquote {
+    border-color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #121212;
+}
+
+#textInfo {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: x-large;
+    color: #121212;
+}
+
+#textAbout {
+    font-family: Helvetica;
+    font-weight: 360;
+    font-size: xx-large;
+    color: #121212;
+}
+
+#SText {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #121212;
+}
+
+#SText2 {
+    font-family: Helvetica;
+    font-size: large;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.nav-wrapper {
+    background-color: #121212;
+}
+
+.title1 {
+    font-size: xx-large;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.black-text {
+    font-weight: bold;
+    font-size: large;
+}
+
+#ProjectT {
+    border: none;
+}
+
+#ProjectT3 {
+    border: none;
+    margin-left: 60px;
+}
+
+#Foot1 {
+    background-color: #121212;
+}
+
+.title2 {
+    text-align: start;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: whitesmoke;
+}

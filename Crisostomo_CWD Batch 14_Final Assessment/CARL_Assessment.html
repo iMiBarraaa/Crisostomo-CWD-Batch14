@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/bf2c4b5b95.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="iBarraPort.css">
+    <title>Carl's Web</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo">iBarra</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#About_Me">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br><br><br><br><br><br><br>
+        <div class="row">
+            <div class="col s6 center">
+                <div class="img_animation">
+                    <img src="Projects/Carl.jpg" alt="" class="circle responsive-img" width="300" height="300"
+                        style="margin-bottom: 10px;">
+                </div>
+            </div>
+            <div class="col s6 center container">
+                <div>
+                    <br>
+                    <div id="textInfo">
+                        <h2>Hello!</h2>
+                        <p>I'm Carl Patrick Crisostomo (iBarra)</p>
+                        <p>A Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br><br><br><br><br>
+        <div id="About_Me" class="divider"></div>
+        <br><br><br><br>
+        <h3>About Me</h3>
+        <h6 id="textAbout">I'm Carl Patrick D. Crisostomo, a creative web developer and graphic designer who is passionate about fusing technology and creativity. I create user experience-focused designs with a strong basis in both disciplines thanks to my attention to detail. I can create responsive websites and applications that look amazing and work well because to my technological experience, which encompasses a variety of programming languages and technologies. I work closely with clients to realize their objectives and go above and beyond their expectations. Together, let's design amazing digital experiences.</h6>
+
+        <br><br><br><br><br>
+        <div id="Projects" class="divider"></div>
+        <h3>Projects</h3>
+        <h5 class="center">Logo</h5>
+        <table>
+            <tr id="ProjectT">
+                <td><img src="Projects/IDDC RWB.jpg" alt="" class="materialboxed responsive-img" data-caption="IDDC Logo"></td>
+                <td><img src="Projects/INDAK RWB.jpg" alt="" class="materialboxed responsive-img" data-caption="INDAK Logo"></td>
+                <td><img src="Projects/LOM Logo1.jpg" alt="" class="materialboxed responsive-img" data-caption="LOM Brothass Logo"></td>
+            </tr>
+        </table>
+        
+        <br><br><br>
+        <h5 class="center">Poster</h5>
+        <table>
+            <tr id="ProjectT">
+                <td><img src="Projects/HIPHOP DANCE CREW POSTER.jpg" alt="" class="materialboxed responsive-img" data-caption="Audition Poster"></td>
+                <td><img src="Projects/3DAY POSTER.jpg" alt="" class="materialboxed responsive-img" data-caption="Countdown Poster"></td>
+                <td><img src="Projects/INDAK LOGO PROPOSAL.jpg" alt="" class="materialboxed responsive-img" data-caption="Logo Proposal"></td>
+            </tr>
+        </table>
+        
+        <br><br><br>
+        <h5 class="center">FB Page Cover</h5>
+        <table id="ProjectT3">
+            <tr>
+                <td align="center"><img src="Projects/FB PAGE COVER DRAFT.png" alt="" class="materialboxed responsive-img" data-caption="IDDC Page Cover"></td>
+            </tr>
+        </table>  
+    </div>
+
+    <br><br>
+    <footer id="Foot1"class="page-footer" style="padding-bottom: 10px;">
+        <div class="footer-copyright">
+            <div class="col s6 left-align" style="margin-left: 30px;">
+                © Copyright 2023 © All rights reserved by iBarra
+            </div>
+
+            <div class="col s6 right-align" style="margin-right: 30px;">
+                <a href="https://www.facebook.com/iMiBarraaa/" target="_blank"><i class="fab fa-facebook fa-2x"
+                        style="color: #f5f5f5; margin-right: 10px;"></i></a>
+                <a href="https://www.instagram.com/carlcrsstm_/" target="_blank"><i class="fab fa-instagram fa-2x"
+                        style="color: #f5f5f5; margin-right: 10px;"></i></a>
+                <a href="https://github.com/iMiBarraaa" target="_blank"><i class="fab fa-github fa-2x"
+                        style="color: #f5f5f5; margin-right: 10px;"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.materialboxed').materialbox({
+                inDuration: 500, outDuration: 500
+            });
+        });
+        $(document).ready(function(){
+        $('.slider').slider({
+            duration: 2000,
+            interval: 6000
+        });
+        });
+    </script>
+</body>
+</html>
